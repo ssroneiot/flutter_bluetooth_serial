@@ -18,6 +18,7 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
+    namespace 'com.example.main'
     compileSdkVersion 30
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
